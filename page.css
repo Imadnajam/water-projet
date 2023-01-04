@@ -1,0 +1,236 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+body{
+    width: 100%;
+    height: 200rem;
+    background-color: #023652;
+
+}
+nav{
+    
+   
+    width: 100%;
+    height: 10vh;
+    color: white;
+    
+    
+}
+nav h3{
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    color: white;
+}
+nav ul {
+    
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+nav ul span {
+    color: white;
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    right:  20px;
+    margin-top: 2%;
+}
+a{
+    color: white;
+}
+nav ul li{
+    margin-right: 2%;
+    margin-top: 2%;
+    color: white;
+}
+
+nav h1{
+    margin: 60px;
+    color: rgb(255, 253, 253);
+    font-size: 2rem;
+      
+}
+nav h1::after{
+    content: "";
+    width: 200px;
+    height: 3px;
+    background-color: yellow;
+    display:list-item;
+    
+}
+
+.page{
+    width: 35%;
+    height: 250vh;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 350px;
+    left: 15rem;
+}
+.text{
+    background-color: yellow;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    right: -5rem;
+    margin: 2%;
+   
+
+}
+.text h1{
+    position: absolute;
+    left:   -2rem;
+    
+}
+.text1{
+    background-color: yellow;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top:48rem;
+    left: 230px;
+}
+.text1 p{
+    font: 1em ;
+    margin: 10%;
+}
+.text p{
+    position: absolute;
+    top:  11rem;
+    margin: 5%;
+}
+.img1{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: -200px;
+}
+.img2{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top:20rem;
+    left: 200px;
+}
+.img3{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top:40rem;
+    left: -200px;
+}
+.items1{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:70rem;
+    left: -40px;
+    font-size: 1.7rem;
+}
+.items1 p{
+    margin-left: 70%;
+}
+.text2{
+    
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top:60rem;
+    left: 10px;
+    font-size: 1.4rem;
+}
+.container1{
+    width: 450px;
+    height: 70vh;
+    gap: 20px;
+    position: absolute;
+    top:66rem;
+    right: -15rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.items2{
+    width: 200px;
+    height: 40vh;
+    background-image: url("p4.jpg");
+    background-position: center;
+    background-size: cover;
+
+    
+}
+.items3{
+    width: 150px;
+    height: 30vh;
+    background-image: url("p6.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.items4{
+    width: 300px;
+    height: 20vh;
+    background-image: url("p5.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.items5{
+    width: 200px;
+    height: 40vh;
+    background-image: url("p7.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.text3{
+    background-color: yellow;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top:85rem;
+    left: -10rem;
+    
+    font-size: 1.3rem;
+}
+footer{
+    margin-top: 130rem;
+}
+.svg1{
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 0px;
+    animation: mask 8s linear infinite ;
+    
+ }
+ .dg{
+    margin: 10%;
+    width: 30rem;
+    height: 20rem;
+    
+    stroke-width: 1;
+    stroke:yellow;
+ }
+ @keyframes mask {
+    0%{
+    stroke-dashoffset: 0px;
+    }
+    50%{
+        stroke-dashoffset: 400px;
+    }
+    80%{
+        stroke-dashoffset: 800px;
+        
+    }
+    100%{
+        stroke-dashoffset: 1000px;
+        
+    }
+}
